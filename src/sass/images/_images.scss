@@ -1,0 +1,27 @@
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+  
+  .pimg1{
+    background-image:url('../img/image1.jpg');
+    min-height: 100%;
+  }
+  
+  .pimg2{
+    background-image:url('../img/image2.jpg');
+    min-height: $images-size;
+  }
+  
+  .pimg3{
+    background-image:url('../img/image3.jpg');
+    min-height: $images-size;
+  }
